@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gibson SJ-200 and case
+* source:	https://sketchfab.com/3d-models/gibson-sj-200-and-case-ada5ae55e45e4a9fa4c1bb84f858173f
+* author:	Andre_Rmntc (https://sketchfab.com/Andre_rmntc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gibson SJ-200 and case" (https://sketchfab.com/3d-models/gibson-sj-200-and-case-ada5ae55e45e4a9fa4c1bb84f858173f) by Andre_Rmntc (https://sketchfab.com/Andre_rmntc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
