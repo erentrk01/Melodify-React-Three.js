@@ -7,3 +7,22 @@ text{
 	line-height: 1.5;
 	color:rgb(238,238,238) !important;
 }
+
+.card-text{
+	font-size: 15px ;
+}
+.card{
+	transform: translate(-400px,0px);
+	animation: 1s slideIn ;
+	animation-delay: 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes slideIn{
+
+	to{
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}

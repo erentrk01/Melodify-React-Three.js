@@ -21,7 +21,22 @@ const Landing = () => {
 					<button className="btn btn-outline-danger">English</button>
 					<button className="btn btn-outline-danger ms-2">Turkish</button>
 				</div>
-				
+				<div className="cards mt-2">
+				<div className="card  text-white bg-dark mb-3 w-25">
+					<div className="card-header">Header</div>
+					<div className="card-body">
+						<h5 className="card-title">Stream</h5>
+						<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+				<div className="card  text-white bg-dark mb-3 w-25">
+					<div className="card-header">Header</div>
+					<div className="card-body">
+						<h5 className="card-title">Chat</h5>
+						<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					</div>
+				</div>
+				</div>
 		</div>
 		</div>
 	)
