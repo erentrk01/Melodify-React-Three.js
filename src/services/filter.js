@@ -1,21 +1,14 @@
 export const filters = [
-	'all',
-	'classical',
-	'country',
-	'dance',
-	'disco',
-	'electronic',
-	'folk',
-	'funk',
-	'hiphop',
-	'jazz',
-	'latin',
-	'metal',
-	'pop',
-	'punk',
-	'rnb',
-	'rock',
-	'soul',
-	'retro'
+	"all",
+    "classical",
+    "country",
+    "dance",
+    "disco",
+    "house",
+    "jazz",
+    "pop",
+    "rap",
+    "retro",
+    "rock"
 
 ];
