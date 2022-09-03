@@ -1,0 +1,14 @@
+{
+	"Welcome_to_React": "React uygulamasına hoşgeldiniz",
+	"Landing":{
+		"app-definition":"Müzik tutkunları için radio-chat uygulaması...",
+				"Stream":{
+					"header":"Farklı tarzlarda Yayın ve Listeler",
+					"description":"Arkadaşlarınızla müzik dinleyin"
+				},
+				"Chat":{
+					"header":"Grup ve Özel Mesajlaşma ",
+					"description":"Seninle benzer  müzikleri dinleyenlere tanış"
+				}
+	}
+  }

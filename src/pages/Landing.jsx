@@ -4,7 +4,13 @@ import style from '../Styling/landing.css';
 import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { useTranslation} from "react-i18next";
+import { languages } from "../services/langInfo";
+import i18n from "i18next";
+
 const Landing = () => {
+	const {t} =	useTranslation();
+
 	useEffect(() => {
 		init();
 	},[]);
@@ -14,26 +20,29 @@ const Landing = () => {
 			<div className="hero py-3 px-2">
 				<h1 className="title">Melodify</h1>
 				<p className="text">
-					A social radio chat app for music lovers.
-
+					{t("Landing.app-definition")}
 				</p>
 				<div className="d-flex justify-content-space-between  p-1">
-					<button className="btn btn-outline-danger">English</button>
-					<button className="btn btn-outline-danger ms-2">Turkish</button>
+					<button 
+					onClick={() => i18n.changeLanguage(languages[0].code)}
+					className="btn btn-outline-danger">English</button>
+					<button 
+					onClick={() => i18n.changeLanguage(languages[1].code)}
+					className="btn btn-outline-danger ms-2">Turkish</button>
 				</div>
 				<div className="cards mt-2">
-				<div className="card  text-white bg-dark mb-3 w-25">
-					<div className="card-header">Header</div>
+				<div className="card  text-white bg-dark mb-3">
+					<div className="card-header">{t("Landing.Stream.header")}</div>
 					<div className="card-body">
-						<h5 className="card-title">Stream</h5>
-						<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+						<p className="card-text">{t("Landing.Stream.description")}</p>
 					</div>
 				</div>
-				<div className="card  text-white bg-dark mb-3 w-25">
-					<div className="card-header">Header</div>
+				<div className="card  text-white bg-dark mb-3 sm">
+					<div className="card-header">{t("Landing.Chat.header")}</div>
 					<div className="card-body">
-						<h5 className="card-title">Chat</h5>
-						<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	
+						<p className="card-text">{t("Landing.Chat.description")}</p>
 					</div>
 				</div>
 				</div>

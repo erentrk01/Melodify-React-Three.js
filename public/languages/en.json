@@ -1,0 +1,15 @@
+{
+	"Welcome_to_React": "Welcome to React and react-i18next",
+	"Landing":{
+		"app-definition":"A social radio chat app for music lovers.",
+		"Stream":{
+			"header":"Stream",
+			"description":"Listen to music with your friends."
+		},
+		"Chat":{
+			"header":"Group Chat and Private Messaging ",
+			"description":"Don't u wanna know better random listeners having same taste with you?"
+		}
+		
+	}
+  }
